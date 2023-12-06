@@ -23,7 +23,7 @@ function HeaderCurrency() {
           EUR: data.conversion_rates.EUR,
         });
       } catch (error) {
-        message.error("Error fetching exchange rates:", error);
+        message.error("Error fetching exchange rates:" + String(error));
       }
     };
     fetchExchangeRates();
