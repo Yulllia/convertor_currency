@@ -1,0 +1,14 @@
+
+.convertor-container {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.convertor-container > .equals {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 2rem;
+}

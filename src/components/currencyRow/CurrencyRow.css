@@ -1,0 +1,8 @@
+.convertor-container > .currency-row {
+    display: flex;
+    justify-content: center;
+}
+.convertor-container > .currency-row > .input {
+    margin-right: 10px;
+    width: 150px;
+}
